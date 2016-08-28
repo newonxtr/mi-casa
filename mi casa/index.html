@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Micasa</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keyword" content="Samaira events.">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/loader.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body onload="load()">
+	<div class="main-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5" id="loadermain">
+					<div class="loader"></div>
+				</div>
+			</div>
+		</div>
+		<div id="idk" class="bounceInup">
+			<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+		        <div class="container">
+		        	<div class="navbar-header">
+		                <div class="navbar-buttons">
+		                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+		                        <span class="sr-only">Toggle navigation</span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+
+		                    </button>
+		                </div>
+		                <a class="navbar-brand" href="index.html" data-animate-hover="bounce">
+		                    <a class="navbar-brand page-scroll" href="#page-top">
+		                    	<img src="images/logo.png" alt="Mi Casa" id="img" class="img-responsive">
+		                    </a>
+		                </a>
+		            </div>
+		            <div class="navbar-collapse collapse fixed" id="navigation">
+		            	<ul class="nav navbar-nav navbar-left">
+		            		<li>
+		            			<a class="page-scroll" href="index.html">Home</a>
+		            		</li>
+		            		<li>
+		            			<a class="page-scroll" href="index.html">Menu</a>
+		            		</li>
+		            		<li>
+		            			<a class="page-scroll" href="index.html">Gallery</a>
+		            		</li>
+		            	</ul>
+		            	<ul class="nav navbar-nav navbar-right">
+		            		<li>
+		            			<a class="page-scroll" href="index.html">Bakery</a>
+		            		</li>
+		            		<li>
+		            			<a class="page-scroll" href="index.html">Reservation</a>
+		            		</li>
+		            		<li>
+		            			<a class="page-scroll" href="index.html">Contact</a>
+		            		</li>
+		            	</ul>
+		            </div>
+				</div>
+				<div class="ribbon right"></div>
+				<div class="ribbon left"></div>
+			</div>
+		</div>
+	<script>
+		var myLoad;
+		function load()
+			{
+				myLoad = setTimeout(showPage,500);
+			}
+		function showPage() {
+			document.getElementById("loadermain").style.display="none";
+			document.getElementById("idk").style.display="block";
+
+		}
+	</script>
+		<script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+</body>
+</html>

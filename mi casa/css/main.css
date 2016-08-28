@@ -1,0 +1,144 @@
+
+body {
+  text-align: center;
+  background-image:url('../images/bg1.jpg');
+    overflow-y: hidden;
+	font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+#img
+{
+	width: 200px;
+	height: 200px;
+	
+}
+#navbar
+{
+	background-color: #C71B1B;
+}
+.navbar-brand
+{
+	transform: translateX(-50%);
+	left: 50%;
+	padding: 0;
+	margin-top: -5.3%;
+	position:absolute;
+}
+
+.navbar-right
+{
+	transform: translateX(-10%);
+	right: 5%;
+}
+.navbar-left
+{
+	transform: translateX(10%);
+	right: 5%;
+}
+#idk
+{
+	margin: auto;
+	margin-top: 40px;
+	max-width: 1200px;
+	position: relative;
+}
+#navbar:after, #navbar:before
+{
+	top: 0;
+	width: 60px;
+	content : "";
+	height: 75px;
+	background:#C71B1B;
+	display: block;
+	position: absolute;
+}
+#navbar:after
+{
+	right: -60px;
+	clear: both;
+	border-right : 1px solid #fff;
+}
+#navbar:before {
+  left  : -60px;
+  border-left : 1px solid #fff;
+}
+.ribbon
+{
+	position: absolute;
+	top: 76px;
+	border-style: solid;
+	border-width: 15px;
+	border-bottom: 2px solid fff;
+}
+.ribbon.left
+{
+	left: -61px;
+	border-color : #888686 #888686 transparent transparent;
+	border-bottom: 2px solid fff;
+}
+.ribbon.right {
+  left         : 1230px;
+  border-color : #888686 transparent transparent #888686;	
+  border-bottom: 2px solid fff;
+}
+.left:after,.left:before
+{
+	display: block;
+	position: absolute;
+	 content : "";
+	left: -65px;
+	border-style: solid;
+	z-index: -2;
+	border-bottom: 3px solid fff;
+}
+.left:after
+{
+	top: -52px;
+	border-width : 58px 0 0 56px;
+  	border-color : #C71B1B transparent transparent transparent;
+  	border-bottom: 2px solid fff;
+}
+.left:before
+{
+	top: -23px;
+	border-width : 0 40px 38px 41px;
+  	border-color : transparent transparent #C71B1B transparent;	
+  	border-bottom: 2px solid fff;
+}
+.right:after , .right:before {
+  display : block;
+  content : "";
+  position: absolute;
+  right    : -64px;
+  border-style : solid;
+  z-index : -2;
+  border-right: 2px solid fff;
+}
+
+.right:before {
+  top      : -24px;
+  border-width : 0 40px 38px 38px;
+  border-color : transparent transparent #C71B1B transparent;	
+
+}
+
+.right:after {
+  top      : -52px;
+  border-width : 58px 56px 0 0;
+  border-color : #C71B1B transparent transparent transparent;
+  border-bottom: 2px solid fff;
+
+}
+.navbar-default .nav li a
+{
+	text-transform: uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	letter-spacing: 1px;
+	font-weight: 450;
+	font-size: 18px;
+	color: #fff;
+}
+.navbar-default .nav li a:hover 
+{
+	color: #fed136
+}
